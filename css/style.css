@@ -31,3 +31,32 @@ section {
 strong {
     color: #d9534f;
 }
+
+
+.main-nav {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.main-nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+.main-nav a:not(:last-child)::after {
+    content: " |";      
+    color: #333;        
+    font-weight: normal; 
+    margin-left: 10px;  
+}
+
+
+.main-nav a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
