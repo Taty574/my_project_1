@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Tier Architecture</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="web_application.html">Web Application</a>
+        <a href="website.html">Website</a>
+        <a href="world_wide_web.html">World Wide Web</a>
+        <a href="internet.html">The Internet</a>
+        <a href="tcp_ip.html">TCP/IP</a>
+        <a href="ip_address.html">IP Address</a>
+        <a href="dns.html">DNS</a>
+        <a href="url.html">URL</a>
+        <a href="uri.html">URI</a>
+        <a href="urn.html">URN</a>
+        <a href="http.html">HTTP</a>
+        <a href="html.html">HTML</a>
+        <a href="ftp.html">FTP</a>
+        <a href="intranet.html">Intranet</a>
+        <a href="extranet.html">Extranet</a>
+        <a href="portals.html">Portals</a>
+    </nav>
+
+    <main>
+        <article>
+            <h1>N-Tier Architecture</h1>
+            <p><em>Category: Web Application Design & Systems</em></p>
+            
+            <section>
+                <h2>Definition</h2>
+                <p><strong>N-Tier Architecture</strong> (also known as multi-tier architecture) is a client–server architecture in which presentation, application processing, and data management functions are physically and logically separated.</p>
+            </section>
+
+            <section>
+                <h2>The Three Core Tiers</h2>
+                <p>Most web applications use a <strong>3-Tier model</strong> as described:</p>
+                <ol>
+                    <li><strong>Presentation Tier (Front-end):</strong> The topmost level of the application—the user interface. This is what the user sees in their browser (HTML, CSS, JavaScript).</li>
+                    <li><strong>Logic/Application Tier (Middleware):</strong> The "brain" of the application. It processes commands, makes logical decisions, and performs calculations (e.g., using PHP, Python, or Java).</li>
+                    <li><strong>Data Tier (Back-end):</strong> Where information is stored and retrieved. This typically consists of a database server (e.g., MySQL, PostgreSQL).</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Visualizing the Layers</h2>
+                <figure class="term-image">
+                    <img src="../images/3-tier-Web-Application-Architecture.webp" alt="Diagram showing the flow between Presentation, Logic, and Data tiers">
+                    <figcaption>Figure 1: The logical separation of concerns in a 3-tier web application architecture.</figcaption>
+                </figure>
+                
+            </section>
+
+            <section>
+                <h2>Advantages</h2>
+                <p>Why use N-Tier instead of putting everything on one server?:</p>
+                <ul>
+                    <li><strong>Scalability:</strong> You can upgrade the database server without touching the web server.</li>
+                    <li><strong>Security:</strong> The database is hidden behind the logic tier, making it harder for hackers to access sensitive data directly.</li>
+                    <li><strong>Maintainability:</strong> Different teams can work on the front-end and back-end simultaneously without interfering with each other's code.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
