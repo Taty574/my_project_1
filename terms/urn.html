@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniform Resource Name</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+   <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="web_application.html">Web Application</a>
+        <a href="website.html">Website</a>
+        <a href="world_wide_web.html">World Wide Web</a>
+        <a href="internet.html">The Internet</a>
+        <a href="tcp_ip.html">TCP/IP</a>
+        <a href="ip_address.html">IP Address</a>
+        <a href="dns.html">DNS</a>
+        <a href="url.html">URL</a>
+        <a href="uri.html">URI</a>
+    </nav>
+
+    <main>
+        <article>
+            <h1>Uniform Resource Name (URN)</h1>
+            <p><em>Category: Navigation & Standards</em></p>
+            
+            <section>
+                <h2>Definition</h2>
+                <p>A <strong>URN</strong> is a type of URI that uses a specific "namespace" to identify a resource by name in a persistent and location-independent manner. Unlike a URL, a URN does not tell you <em>where</em> the resource is or <em>how</em> to get it; it simply tells you <em>what</em> it is.</p>
+            </section>
+
+            <section>
+                <h2>Key Characteristics</h2>
+                <ul>
+                    <li><strong>Persistence:</strong> Even if a document is moved from one server to another, its URN remains the same.</li>
+                    <li><strong>Location Independence:</strong> It identifies the "item" itself, not the "path" to the item.</li>
+                    <li><strong>Structure:</strong> A URN always starts with the prefix <code>urn:</code> followed by a namespace identifier.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Visual Comparison: Name vs. Address</h2>
+                <p>To differentiate between the two types of URIs, think of a book:</p>
+
+                <figure class="term-image">
+                     <img src="../images/url_uri_urn_image.png" alt="Diagram showing url, uri, and urn">
+                     <figcaption>Figure 1: Comparison of URL, URI, and URN.</figcaption>
+                </figure>
+                
+                <ul>
+                    <li><strong>URN:</strong> The book's ISBN (e.g., <code>urn:isbn:9780134034287</code>). This name never changes, no matter where the book is.</li>
+                    <li><strong>URL:</strong> The specific shelf location in a specific library. If the library moves the book, the URL changes, but the URN stays the same.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Real-World Examples</h2>
+                <p>Common namespaces for URNs include:</p>
+                <ul>
+                    <li><code>urn:ietf:rfc:2648</code> — Identifying a specific technical document (Request for Comments).</li>
+                    <li><code>urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</code> — A Universally Unique Identifier for software components.</li>
+                </ul>
+            </section>
+        </article>
+    </main> 
+    
+</body>
+</html>
