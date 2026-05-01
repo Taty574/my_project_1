@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP (Hypertext Transfer Protocol)</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="web_application.html">Web Application</a>
+        <a href="website.html">Website</a>
+        <a href="world-wide-web.html">WWW</a>
+        <a href="internet.html">The Internet</a>
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="ip_address.html">IP Address</a>
+        <a href="dns.html">DNS</a>
+        <a href="url.html">URL</a>
+        <a href="uri.html">URI</a>
+        <a href="urn.html">URN</a>
+    </nav>
+
+    <main>
+        <article>
+            <h1>Hypertext Transfer Protocol (HTTP)</h1>
+            <p><em>Category: Protocols & Web Communication</em></p>
+            
+            <section>
+                <h2>Definition</h2>
+                <p><strong>HTTP</strong> is the foundation of any data exchange on the Web. It is a protocol used for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers.</p>
+            </section>
+
+            <section>
+                <h2>The Request-Response Cycle</h2>
+                <p>HTTP follows a simple "Client-Server" model. Here is how the cycle works:</p>
+                
+                <ul>
+                    <li><strong>The Request:</strong> Your browser (the Client) sends an HTTP request to the server (e.g., "Please send me index.html").</li>
+                    <li><strong>The Response:</strong> The server processes the request and sends back a response (e.g., the file itself or an error code).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Statelessness</h2>
+                <p>A key technical characteristic mentioned in Topic 1 is that HTTP is <strong>stateless</strong>. This means the server does not "remember" the client between requests. Each request is handled as a brand-new interaction.</p>
+            </section>
+
+            <section>
+                <h2>HTTP vs. HTTPS</h2>
+                <figure class="term-image">
+                    <img src="../images/http_vs_https_image.png" alt="Comparison showing HTTPS with a lock icon for security">
+                    <figcaption>Figure 1: The difference between standard HTTP and the secure, encrypted HTTPS.</figcaption>
+                </figure>
+                <p>While HTTP sends data in "plain text," <strong>HTTPS</strong> (Hypertext Transfer Protocol Secure) uses encryption to protect the data while it is in transit, which is essential for modern Web Applications.</p>
+            </section>
+        </article>
+    </main>  
+    
+</body>
+</html>
