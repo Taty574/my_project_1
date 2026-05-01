@@ -60,3 +60,24 @@ strong {
     text-decoration: underline;
     color: #0056b3;
 }
+
+.term-image {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.term-image img {
+    width: 100%;           
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.term-image figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+}
