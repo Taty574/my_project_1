@@ -43,12 +43,19 @@
 
             <section>
                 <h2>The Request-Response Cycle</h2>
-                <p>HTTP follows a simple "Client-Server" model. Here is how the cycle works:</p>
-                
-                <ul>
-                    <li><strong>The Request:</strong> Your browser (the Client) sends an HTTP request to the server (e.g., "Please send me index.html").</li>
-                    <li><strong>The Response:</strong> The server processes the request and sends back a response (e.g., the file itself or an error code).</li>
-                </ul>
+                <p>The communication between a browser (Client) and a server (Host) happens in a specific cycle. This is the core mechanism of the HTTP protocol:</p>
+    
+                <figure class="term-image">
+                   <img src="../images/Request-and-Response-Cycle.webp" alt="Diagram showing the HTTP Request-Response cycle between a browser and a server">
+                   <figcaption>Figure 1: The standard flow of data in an HTTP transaction.</figcaption>
+                </figure>
+    
+
+            <ol>
+                <li><strong>The Request:</strong> The client sends an HTTP request message to the server. This includes a <em>Method</em> (like GET or POST), a <em>URL</em>, and <em>Headers</em> (info about the browser).</li>
+                <li><strong>The Processing:</strong> The web server receives the request, locates the resource (like an HTML file), or passes the request to the Logic Tier.</li>
+                <li><strong>The Response:</strong> The server sends back an HTTP response message. This contains a <strong>Status Code</strong> (e.g., <code>200 OK</code> or <code>404 Not Found</code>) and the actual content (the HTML/image).</li>
+            </ol>
             </section>
 
             <section>
