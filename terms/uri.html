@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniform Resource Identifier (URI)</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="web_application.html">Web Application</a>
+        <a href="website.html">Website</a>
+        <a href="world_wide_web.html">World Wide Web</a>
+        <a href="internet.html">The Internet</a>
+        <a href="tcp_ip.html">TCP/IP</a>
+        <a href="ip_address.html">IP Address</a>
+        <a href="dns.html">DNS</a>
+        <a href="url.html">URL</a>
+    </nav>
+
+    <main>
+        <article>
+            <h1>Uniform Resource Identifier (URI)</h1>
+            <p><em>Category: Navigation & Standards</em></p>
+            
+            <section>
+                <h2>Definition</h2>
+                <p>A <strong>URI</strong> is a sequence of characters used to identify a logical or physical resource on the Internet. It is the broad umbrella term that includes both <strong>URLs</strong> (Locators) and <strong>URNs</strong> (Names).</p>
+            </section>
+
+            <section>
+                <h2>URI vs. URL: The Distinction</h2>
+                <p>To provide a thorough elaboration, we must distinguish between the two most common types of URIs:</p>
+                <ul>
+                    <li><strong>URL (Uniform Resource Locator):</strong> Identifies a resource by describing <em>how to get to it</em> (e.g., <code>https://www.google.com</code>).</li>
+                    <li><strong>URN (Uniform Resource Name):</strong> Identifies a resource by <em>name</em> in a particular namespace, regardless of its location (e.g., <code>isbn:0451524934</code> for a specific book).</li>
+                </ul>
+                <p><strong>Analogy:</strong> If a person is the "resource," their <strong>URL</strong> is their home address, and their <strong>URN</strong> is their Social Security Number or Name.</p>
+            </section>
+
+            <section>
+                <h2>Relationship Diagram</h2>
+                <figure class="term-image">
+                    <img src="../images/uri_vs_url_image.webp" alt="Diagram showing URI vs URL">
+                    <figcaption>Figure 1: URI vs. URL.</figcaption>
+                </figure>
+                
+            </section>
+
+            <section>
+                <h2>Technical Structure</h2>
+                <p>A URI generally follows this generic syntax:</p>
+                <code>scheme:[//authority]path[?query][#fragment]</code>
+                <p>This structure allows the World Wide Web to remain flexible, as it can identify anything from a website document to an email address (<code>mailto:someone@example.com</code>) or a telephone number.</p>
+            </section>
+        </article>
+    </main>
+    
+</body>
+</html>
